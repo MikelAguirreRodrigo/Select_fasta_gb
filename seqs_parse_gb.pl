@@ -16,7 +16,7 @@ my @zoop = <ZOOP>;
 chomp(@zoop);
 
 
-my $zoopl = join('|', @zoop);
+#my $zoopl = join('|', @zoop);
 #########################
 system ('wget ftp://ftp.ncbi.nih.gov/genbank/gbinv*');
 #system ('wget ftp://ftp.ncbi.nih.gov/genbank/gbpln*');
